@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.review {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.review-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  width: 80%;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-image {
+  width: 100px;
+  margin: 20px;
+}
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px;
+}
+.company {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+.description {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+  text-align: center;
+}
